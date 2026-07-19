@@ -2,12 +2,19 @@
 
 > A **multi-agent AI pipeline** that converts raw meeting transcripts into a structured, prioritized, and deduplicated task list — fully deterministic, observable, and benchmarked against a single-agent baseline.
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)  [![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)](https://streamlit.io/)  [![Pydantic v2](https://img.shields.io/badge/schemas-Pydantic%20v2-green)](https://docs.pydantic.dev/) [![CI/CD](https://github.com/username/repo/actions/workflows/ci.yml/badge.svg)](https://github.com/username/repo/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)  [![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)](https://streamlit.io/)  [![Pydantic v2](https://img.shields.io/badge/schemas-Pydantic%20v2-green)](https://docs.pydantic.dev/) [![CI/CD](https://github.com/Vedanth-JS/notes2tasks/actions/workflows/ci.yml/badge.svg)](https://github.com/Vedanth-JS/notes2tasks/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 *Topics: AI, LLM, Multi-Agent, Python, Streamlit, NLP, Automation, Pydantic*
 
-![Screenshot](https://via.placeholder.com/800x400?text=Streamlit+App+Screenshot)
-![Demo](https://via.placeholder.com/800x400?text=GIF+Demo)
+### 📋 Tasks Tab
+![Tasks Tab](docs/screenshots/tasks_tab.png)
+
+### 🤖 Agents Tab
+![Agents Tab](docs/screenshots/agents_tab.png)
+
+### 📊 Metrics Tab
+![Metrics Tab](docs/screenshots/metrics_tab.png)
+
 ---
 
 ## ⚡ Quick Start
