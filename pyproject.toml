@@ -1,0 +1,41 @@
+[project]
+name = "meeting-notes-to-action-item-extractor"
+version = "0.1.0"
+description = "Multi-agent meeting notes extractor"
+authors = [{ name = "Author Name" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit==1.41.1",
+    "pydantic==2.10.5",
+    "python-dateutil==2.9.0.post0",
+    "streamlit-authenticator==0.4.1",
+    "SQLAlchemy==2.0.30",
+    "fastapi",
+    "uvicorn"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "ruff",
+    "isort",
+    "pre-commit"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
